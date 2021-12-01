@@ -1,0 +1,23 @@
+<!-- Element Ref -->
+<p #sp>TEST P TAG 1</p>
+<p #sp>TEST P TAG 2</p>
+<p #sp>TEST P TAG 3</p>
+
+<!-- Template Ref -->
+<ng-template #spt> TEMP REF 1 </ng-template>
+<ng-template #spt> TEMP REF 2 </ng-template>
+<ng-template #spt> TEMP REF 3 </ng-template>
+
+<button (click)="add()">ADD</button>
+
+<!-- Component Ref -->
+<hello></hello>
+<hello name="makesh"></hello>
+
+<hr />
+
+<hello>
+  <p #cpt>SOME PROJECTED CONTENT 1</p>
+  <p #cpt>SOME PROJECTED CONTENT 2</p>
+  <p #cpt>SOME PROJECTED CONTENT 3</p>
+</hello>
